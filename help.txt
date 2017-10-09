@@ -1,0 +1,10 @@
+#COMMANDS
+    * SORT SPECIFIC FILE
+        sort-po --path [path] --file [filename]
+            or
+        sort-po --p [path] --f [filename]
+
+    * HELP
+        sort-po --help
+            or
+        sort-po --h
