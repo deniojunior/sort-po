@@ -23,28 +23,22 @@ gulp.task('sort-po', function(){
 
 # Run
 * SORT SPECIFIC FILE
-    sort-po --locale [locale] --file [filename]
-        or
-    sort-po --l [locale] --f [filename]
+    * gulp sort-po --locale [locale] --file [filename]
+    * gulp sort-po --l [locale] --f [filename]
 
 * SORT FILE messages.po
-    sort-po --locale [locale]
-        or
-    sort-po --l [locale]
+    * gulp sort-po --locale [locale]
+    * gulp sort-po --l [locale]
 
 * SORT ALL
-    sort-po --all
-        or
-    sort-po -a
+    * gulp sort-po --all
+    * gulp sort-po -a
 
 * HELP
-    sort-po --help
-        or
-    sort-po --h
-    
-If you don't specify any file, sort-po will assume 'messages.po' as default.
+    * sort-po --help
+    * sort-po --h
 
-#Config
+# Config
 Inside 'sort-po.js' file, there are two default variables that can be changed as needed:
 
 * DEFAULT_FILE = 'message.po';
