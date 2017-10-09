@@ -3,6 +3,10 @@ SORT-PO is a Gulp module to sort '.po' files.
 
 # Install
 * Clone sort-po into your app.
+    ```bash
+    cd /my-app
+    git clone https://github.com/deniojunior/sort-po.git
+    ```
 
 * Assuming you have NPM installed, run:
     ```bash
