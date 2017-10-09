@@ -54,7 +54,7 @@ SORT-PO is a Gulp module to sort '.po' files.
 # Config
 Inside 'sort-po.js' file, there are two default variables that can be changed as needed:
 
-    ```javascript
-    DEFAULT_FILE = 'message.po';
-    DEFAULT_PATH = './locale/';
-    ```
+```javascript
+DEFAULT_FILE = 'message.po';
+DEFAULT_PATH = './locale/';
+```
