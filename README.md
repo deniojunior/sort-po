@@ -1,5 +1,5 @@
 # SORT-PO
-SORT-PO is a Gulp module to sort '.po' files.
+SORT-PO is a Gulp/Node.js module to sort '.po' files.
 
 # Install
 * Clone sort-po into your app.
